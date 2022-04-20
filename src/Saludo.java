@@ -3,16 +3,18 @@
  */
 
 /**
- * @author Bad Taste greetz in different languages
+ * @author Raúl 
+ * 
+ * Saluda en diferentes idiomas
  */
 public class Saludo {
 
 	/**
 	 * Greets
 	 * 
-	 * @param idioma       chosen language
-	 * @param repeticiones how many times repeat greet
-	 * @return a String with the greeting
+	 * @param idioma       idioma elegido
+	 * @param repeticiones cuántas veces se repite el saludo
+	 * @return un String con los saludos
 	 */
 	public String saludar(int idioma, int repeticiones) {
 		String resultado = "";
@@ -32,7 +34,7 @@ public class Saludo {
 			break;
 		}
 
-		// Repeat greet rep times
+		// Repite el saludo repeticiones veces
 		for (int contador = 0; contador < repeticiones; contador++) {
 			resultado += saludo;
 		}

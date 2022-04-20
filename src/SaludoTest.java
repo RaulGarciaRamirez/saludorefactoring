@@ -3,7 +3,9 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 /**
- * @author Bad Taste test class for a rubbish class
+ * @author Raúl 
+ * 
+ * Clase de test para la clase Saludo
  */
 public class SaludoTest {
 
